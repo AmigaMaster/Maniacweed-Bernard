@@ -2775,12 +2775,41 @@
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Top>0</Top>
-              <Transparency>4</Transparency>
+              <Transparency>0</Transparency>
               <Visible>False</Visible>
               <Width>320</Width>
               <ZOrder>-10</ZOrder>
             </NormalGUI>
-            <Controls />
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>600</Height>
+                <ID>0</ID>
+                <Image>369</Image>
+                <Left>132</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>bFlashlight</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>21</Top>
+                <Translated>True</Translated>
+                <Visible>False</Visible>
+                <Width>960</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+            </Controls>
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -2844,6 +2873,25 @@
               <Event Index="2" />
               <Event Index="3">iPillow_OtherClick</Event>
               <Event Index="4">iPillow_OtherClick</Event>
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description>Taschenlampe</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>4</ID>
+            <Image>370</Image>
+            <Name>iFlashlight</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Event Index="0">iFlashlight_OtherClick</Event>
+              <Event Index="1">iFlashlight_OtherClick</Event>
+              <Event Index="2" />
+              <Event Index="3">iFlashlight_OtherClick</Event>
+              <Event Index="4">iFlashlight_OtherClick</Event>
             </Interactions>
           </InventoryItem>
         </InventoryItems>
@@ -8417,6 +8465,27 @@
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="Flashlight">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="369" Width="960" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>sprites/flashlight/flashlight.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>600</ImportHeight>
+                      <ImportWidth>960</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
             <Sprites>
               <Sprite Slot="51" Width="320" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -8610,6 +8679,22 @@
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="370" Width="38" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>sprites/flashlight/inv_Taschenlampe.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>22</ImportHeight>
+                  <ImportWidth>38</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>TopLeft</ImportMethod>
                   <TransparentColorIndex>0</TransparentColorIndex>

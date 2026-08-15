@@ -1,0 +1,6 @@
+Maniacweed Bernard template
+
+This template is based on Tumbleweed and provides you with the full interface inspired by Thimbleweed Park and includes the whole Bernoulli home from the Maniac Mansion Mania series.
+Read midi.txt in your games root directory on how to setup MIDI support.
+
+Have fun!

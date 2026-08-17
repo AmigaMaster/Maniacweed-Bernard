@@ -12254,7 +12254,7 @@
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>Variables.ash</FileName>
+                <FileName>GameConfig.ash</FileName>
                 <Name />
                 <Description />
                 <Author />
@@ -12265,7 +12265,7 @@
             </ScriptAndHeader_Header>
             <ScriptAndHeader_Script>
               <Script>
-                <FileName>Variables.asc</FileName>
+                <FileName>GameConfig.asc</FileName>
                 <Name />
                 <Description />
                 <Author />

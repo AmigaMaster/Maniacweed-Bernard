@@ -10,6 +10,7 @@
 struct ShowHotspotConfig {
   import static attribute int FadeDelay;
   import static attribute int MaxTransparency;
+  import static attribute int Color[];
 };
 
 // --- MAIN-STRUCTURE (Container for easy auto-completion) ---

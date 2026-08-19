@@ -7,7 +7,7 @@
 // ============================================================================
 
 // --- SHOW HOTSPOTS-SETTINGS ---
-struct ShowHotspotConfig {
+struct ShowHotspotsConfig {
   import static attribute bool Enabled;
   import static attribute bool AllCaps;
   import static attribute int Color[];

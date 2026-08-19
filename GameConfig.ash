@@ -13,7 +13,10 @@ struct ShowHotspotConfig {
   import static attribute int FadeDelay;
   import static attribute FontType Font;
   import static attribute int HotSpotKey;
+  import static attribute int IconSpriteSlot;
   import static attribute int MaxTransparency;
+  import static attribute int IconOffsetX;
+  import static attribute int IconOffsetY;
 };
 
 // --- MAIN-STRUCTURE (Container for easy auto-completion) ---
